@@ -1,0 +1,3 @@
+# Exceptions to .github/scripts/supply_chain_check.py: `<rule> <path glob> -- <reason>`.
+pip-pin install.sh -- on-device installer for the owner's Raspberry Pi / Umbrel (public community fork), not a fleet runtime; exact pins need testing on the hardware first (Pi OS Python and RPi.GPIO/gpiod/spidev builds differ)
+pip-pin app/install.sh -- same on-device installer (app copy); same reason
